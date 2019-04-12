@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+html {
+  width: 100%;
+}
+
+body {
+  color: #313131;
+  font-family: "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", Verdana, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+header {
+  background: linear-gradient(to top right, #006400, #32cd32);
+  padding-top: 35px;
+	padding-bottom: 35px;
+}
+header h1 {
+  width: 60%;
+  margin: auto;
+  color: #ffffff;
+  font-size: 28px;
+	letter-spacing: 3px;
+}
+
+nav {
+  background: #228b22;
+  border-top: 0.5px solid #ffffff;
+	border-bottom: 0.5px solid #228b22;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+nav ul {
+	width: 60%;
+	margin: auto;
+	list-style: none;
+}
+nav li {
+	width: 25%;
+	border-left: 0.5px solid #ffffff;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+nav li:last-child {
+	border-right: 0.5px solid #ffffff;
+}
+nav a {
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 13px;
+	letter-spacing: 5px;
+	line-height: 45px;
+  transition-duration: 0.5s;
+}
+nav a:hover {
+	background: #ffffff;
+	color: #228b22;
+  transition-duration: 0.3s;
+}
+
+.section {
+	width: 58%;
+  margin: auto;
+	margin-bottom: 24px;
+}
+.section h2 {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #bababa;
+  margin-bottom: 15px;
+	font-size: 20px;
+  letter-spacing: 3px;
+}
+.section p {
+  width: 98%;
+  margin: auto;
+  letter-spacing: 0.5px;
+	line-height: 1.75;
+}
+.section ul {
+  width: 98%;
+  margin: auto;
+  letter-spacing: 0.5px;
+	line-height: 1.75;
+}
+.link_icon {
+  padding-top: 8px;
+  padding-bottom: 30px;
+  list-style: none;
+}
+.link_icon li {
+  padding-right: 12px;
+	float: left;
+}
+.section a {
+  color: #0000ee;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+.section a:visited {
+  color: #f60000;
+}
+.section a:hover {
+  text-decoration: underline;
+}
+.link_icon a {
+  color: #313131;
+}
+.link_icon a:hover {
+  font-size: 120%;
+  text-decoration: none;
+}
+.mgr_10 {
+  margin-right: 10px;
+}
+
+#date {
+  width: 58%;
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 3px;
+  text-align: right;
+}
+#date p {
+  font-size: 70%;
+  letter-spacing: 2px;
+}
+
+footer {
+  background: #228b22;
+  padding-top: 4px;
+	padding-bottom: 4px;
+  text-align: center;
+}
+footer small {
+	color: #ffffff;
+  font-size: 70%;
+  letter-spacing: 2px;
+}
