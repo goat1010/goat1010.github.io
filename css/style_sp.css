@@ -20,7 +20,7 @@ header h1 {
   width: 90%;
   margin: auto;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 21px;
 	letter-spacing: 2px;
 }
 
@@ -48,7 +48,7 @@ nav a {
 	display: block;
 	text-decoration: none;
 	color: #ffffff;
-	font-size: 13px;
+	font-size: 14px;
 	letter-spacing: 1px;
 	line-height: 42px;
   transition-duration: 0.5s;
@@ -68,7 +68,7 @@ nav a:hover {
   padding-bottom: 1.5px;
   border-bottom: 1px solid #bababa;
   margin-bottom: 12px;
-	font-size: 16px;
+	font-size: 17px;
   letter-spacing: 2px;
 }
 .section p {
@@ -114,11 +114,11 @@ nav a:hover {
   width: 90%;
   margin: auto;
   margin-top: 40px;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
   text-align: right;
 }
 #date p {
-  font-size: 7px;
+  font-size: 8px;
   letter-spacing: 1.5px;
 }
 
@@ -129,6 +129,6 @@ footer {
 }
 footer small {
 	color: #ffffff;
-  font-size: 7px;
+  font-size: 8px;
   letter-spacing: 1.5px;
 }
