@@ -6,13 +6,13 @@ html {
 
 body {
   color: #313131;
-  font-family: "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", Verdana, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
   font-size: 13.5px;
   line-height: 1.5;
 }
 
 header {
-  background: linear-gradient(to top right, #006400, #32cd32);
+  background: linear-gradient(to bottom, #228b22, #007800);
   padding-top: 21px;
 	padding-bottom: 21px;
 }
@@ -93,12 +93,8 @@ nav a:hover {
   float: left;
 }
 .section a {
-  color: #0000ee;
   text-decoration: none;
   transition-duration: 0.4s;
-}
-.section a:visited {
-  color: #f60000;
 }
 .section a:hover {
   text-decoration: underline;
@@ -118,7 +114,7 @@ nav a:hover {
   width: 90%;
   margin: auto;
   margin-top: 40px;
-  margin-bottom: 1px;
+  margin-bottom: 3px;
   text-align: right;
 }
 #date p {
@@ -128,7 +124,7 @@ nav a:hover {
 
 footer {
   background: #228b22;
-	padding-bottom: 1px;
+	padding-bottom: 4px;
   text-align: center;
 }
 footer small {
